@@ -4,12 +4,13 @@ module.exports.run = async (bot, message, args) => {
     const cmdsembed = new Discord.MessageEmbed()
       .setTitle('Commands')
       .setColor('FF0000')
-      .setDescription('```!!cmds, !!about, !!ping, !!chping, !!say, !!calc```');
+      .setDescription('```about, credits, cmd, help, ping, chping, say, calc, weather, scalc```');
     message.channel.send(cmdsembed);
   }
 
 module.exports.help = {
 name:"cmds"
+
 }
 
 // written by oneleiz | ¯//_
