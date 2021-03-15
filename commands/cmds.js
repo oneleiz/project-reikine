@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
     const cmdsembed = new Discord.MessageEmbed()
       .setTitle('Commands')
       .setColor('FF0000')
-      .setDescription('```about, credits, cmd, help, ping, chping, say, calc, weather, scalc```');
+      .setDescription('```about, calc, chping, cmd, coinflip, credits, dice, help, ping, say, scalc, weather```');
     message.channel.send(cmdsembed);
   }
 
